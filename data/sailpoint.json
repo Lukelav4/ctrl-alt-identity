@@ -1,0 +1,837 @@
+{
+  "currentUser": "The Administrator",
+  "stats": [
+    [
+      "Policy Violations",
+      "0"
+    ],
+    [
+      "Access Reviews",
+      "0"
+    ],
+    [
+      "Approvals",
+      "0"
+    ]
+  ],
+  "identities": [
+    {
+      "userName": "Max.Verstappen",
+      "firstName": "Max",
+      "lastName": "Verstappen",
+      "email": "max.verstappen@ctrlaltidentity.dev",
+      "manager": "Christian.Horner",
+      "department": "Race Operations",
+      "location": "Milton Keynes",
+      "jobTitle": "Race Driver",
+      "costCenter": "R01e",
+      "status": "Active",
+      "type": "Employee",
+      "risk": 0,
+      "assigned": "Birthright IT Role, Race Operations",
+      "detected": "Telemetry Access",
+      "entitlements": [
+        [
+          "Birthright IT Role",
+          "Active Directory",
+          "Role",
+          "Birthright"
+        ],
+        [
+          "SG-Race-Operations",
+          "Active Directory",
+          "Entitlement",
+          "Team Role"
+        ],
+        [
+          "SG-Telemetry-Access",
+          "Active Directory",
+          "Entitlement",
+          "Detected"
+        ]
+      ],
+      "accounts": [
+        [
+          "Active Directory",
+          "Max.Verstappen",
+          "Active",
+          "Enabled"
+        ]
+      ],
+      "history": [
+        [
+          "Identity created",
+          "Aggregation"
+        ],
+        [
+          "Role assigned: Race Operations",
+          "Birthright provisioning"
+        ],
+        [
+          "Account correlated",
+          "Active Directory"
+        ]
+      ]
+    },
+    {
+      "userName": "Lewis.Hamilton",
+      "firstName": "Lewis",
+      "lastName": "Hamilton",
+      "email": "lewis.hamilton@ctrlaltidentity.dev",
+      "manager": "Fred.Vasseur",
+      "department": "Race Operations",
+      "location": "Brackley",
+      "jobTitle": "Race Driver",
+      "costCenter": "R01e",
+      "status": "Active",
+      "type": "Employee",
+      "risk": 0,
+      "assigned": "Birthright IT Role, Race Operations",
+      "detected": "Telemetry Access",
+      "entitlements": [
+        [
+          "Birthright IT Role",
+          "Active Directory",
+          "Role",
+          "Birthright"
+        ],
+        [
+          "SG-Race-Operations",
+          "Active Directory",
+          "Entitlement",
+          "Team Role"
+        ],
+        [
+          "SG-Telemetry-Access",
+          "Active Directory",
+          "Entitlement",
+          "Detected"
+        ]
+      ],
+      "accounts": [
+        [
+          "Active Directory",
+          "Lewis.Hamilton",
+          "Active",
+          "Enabled"
+        ]
+      ],
+      "history": [
+        [
+          "Identity created",
+          "Aggregation"
+        ],
+        [
+          "Role assigned: Race Operations",
+          "Birthright provisioning"
+        ],
+        [
+          "Account correlated",
+          "Active Directory"
+        ]
+      ]
+    },
+    {
+      "userName": "Charles.Leclerc",
+      "firstName": "Charles",
+      "lastName": "Leclerc",
+      "email": "charles.leclerc@ctrlaltidentity.dev",
+      "manager": "Fred.Vasseur",
+      "department": "Race Operations",
+      "location": "Maranello",
+      "jobTitle": "Race Driver",
+      "costCenter": "R01e",
+      "status": "Active",
+      "type": "Employee",
+      "risk": 0,
+      "assigned": "Birthright IT Role, Race Operations",
+      "detected": "Garage Systems",
+      "entitlements": [
+        [
+          "Birthright IT Role",
+          "Active Directory",
+          "Role",
+          "Birthright"
+        ],
+        [
+          "SG-Race-Operations",
+          "Active Directory",
+          "Entitlement",
+          "Team Role"
+        ],
+        [
+          "SG-Garage-Systems",
+          "Active Directory",
+          "Entitlement",
+          "Detected"
+        ]
+      ],
+      "accounts": [
+        [
+          "Active Directory",
+          "Charles.Leclerc",
+          "Active",
+          "Enabled"
+        ]
+      ],
+      "history": [
+        [
+          "Identity created",
+          "Aggregation"
+        ],
+        [
+          "Role assigned: Race Operations",
+          "Birthright provisioning"
+        ],
+        [
+          "Account correlated",
+          "Active Directory"
+        ]
+      ]
+    },
+    {
+      "userName": "Lando.Norris",
+      "firstName": "Lando",
+      "lastName": "Norris",
+      "email": "lando.norris@ctrlaltidentity.dev",
+      "manager": "Andrea.Stella",
+      "department": "Race Operations",
+      "location": "Woking",
+      "jobTitle": "Race Driver",
+      "costCenter": "R01e",
+      "status": "Active",
+      "type": "Employee",
+      "risk": 0,
+      "assigned": "Birthright IT Role, Race Operations",
+      "detected": "Telemetry Access",
+      "entitlements": [
+        [
+          "Birthright IT Role",
+          "Active Directory",
+          "Role",
+          "Birthright"
+        ],
+        [
+          "SG-Race-Operations",
+          "Active Directory",
+          "Entitlement",
+          "Team Role"
+        ],
+        [
+          "SG-Telemetry-Access",
+          "Active Directory",
+          "Entitlement",
+          "Detected"
+        ]
+      ],
+      "accounts": [
+        [
+          "Active Directory",
+          "Lando.Norris",
+          "Active",
+          "Enabled"
+        ]
+      ],
+      "history": [
+        [
+          "Identity created",
+          "Aggregation"
+        ],
+        [
+          "Role assigned: Race Operations",
+          "Birthright provisioning"
+        ],
+        [
+          "Account correlated",
+          "Active Directory"
+        ]
+      ]
+    },
+    {
+      "userName": "George.Russell",
+      "firstName": "George",
+      "lastName": "Russell",
+      "email": "george.russell@ctrlaltidentity.dev",
+      "manager": "Toto.Wolff",
+      "department": "Vehicle Dynamics",
+      "location": "Brackley",
+      "jobTitle": "Race Driver",
+      "costCenter": "B02e",
+      "status": "Active",
+      "type": "Employee",
+      "risk": 0,
+      "assigned": "Birthright IT Role, Vehicle Dynamics",
+      "detected": "Telemetry Access",
+      "entitlements": [
+        [
+          "Birthright IT Role",
+          "Active Directory",
+          "Role",
+          "Birthright"
+        ],
+        [
+          "SG-Telemetry-Access",
+          "Active Directory",
+          "Entitlement",
+          "Team Role"
+        ]
+      ],
+      "accounts": [
+        [
+          "Active Directory",
+          "George.Russell",
+          "Active",
+          "Enabled"
+        ]
+      ],
+      "history": [
+        [
+          "Identity created",
+          "Aggregation"
+        ],
+        [
+          "Role assigned: Vehicle Dynamics",
+          "Birthright provisioning"
+        ],
+        [
+          "Account correlated",
+          "Active Directory"
+        ]
+      ]
+    },
+    {
+      "userName": "Carlos.Sainz",
+      "firstName": "Carlos",
+      "lastName": "Sainz",
+      "email": "carlos.sainz@ctrlaltidentity.dev",
+      "manager": "James.Vowles",
+      "department": "Race Operations",
+      "location": "Silverstone",
+      "jobTitle": "Race Driver",
+      "costCenter": "R01e",
+      "status": "Active",
+      "type": "Employee",
+      "risk": 0,
+      "assigned": "Birthright IT Role, Race Operations",
+      "detected": "",
+      "entitlements": [
+        [
+          "Birthright IT Role",
+          "Active Directory",
+          "Role",
+          "Birthright"
+        ],
+        [
+          "SG-Race-Operations",
+          "Active Directory",
+          "Entitlement",
+          "Team Role"
+        ]
+      ],
+      "accounts": [
+        [
+          "Active Directory",
+          "Carlos.Sainz",
+          "Active",
+          "Enabled"
+        ]
+      ],
+      "history": [
+        [
+          "Identity created",
+          "Aggregation"
+        ],
+        [
+          "Account correlated",
+          "Active Directory"
+        ]
+      ]
+    },
+    {
+      "userName": "Fernando.Alonso",
+      "firstName": "Fernando",
+      "lastName": "Alonso",
+      "email": "fernando.alonso@ctrlaltidentity.dev",
+      "manager": "Adrian.Newey",
+      "department": "Strategy",
+      "location": "Enstone",
+      "jobTitle": "Race Driver",
+      "costCenter": "E03e",
+      "status": "Active",
+      "type": "Employee",
+      "risk": 0,
+      "assigned": "Birthright IT Role, Strategy",
+      "detected": "Strategy Tools",
+      "entitlements": [
+        [
+          "Birthright IT Role",
+          "Active Directory",
+          "Role",
+          "Birthright"
+        ],
+        [
+          "SG-Strategy-Tools",
+          "Active Directory",
+          "Entitlement",
+          "Team Role"
+        ]
+      ],
+      "accounts": [
+        [
+          "Active Directory",
+          "Fernando.Alonso",
+          "Active",
+          "Enabled"
+        ]
+      ],
+      "history": [
+        [
+          "Identity created",
+          "Aggregation"
+        ],
+        [
+          "Role assigned: Strategy",
+          "Birthright provisioning"
+        ],
+        [
+          "Account correlated",
+          "Active Directory"
+        ]
+      ]
+    },
+    {
+      "userName": "Oscar.Piastri",
+      "firstName": "Oscar",
+      "lastName": "Piastri",
+      "email": "oscar.piastri@ctrlaltidentity.dev",
+      "manager": "Andrea.Stella",
+      "department": "Aerodynamics",
+      "location": "Woking",
+      "jobTitle": "Race Driver",
+      "costCenter": "W04e",
+      "status": "Active",
+      "type": "Employee",
+      "risk": 0,
+      "assigned": "Birthright IT Role",
+      "detected": "Garage Systems",
+      "entitlements": [
+        [
+          "Birthright IT Role",
+          "Active Directory",
+          "Role",
+          "Birthright"
+        ],
+        [
+          "SG-Garage-Systems",
+          "Active Directory",
+          "Entitlement",
+          "Detected"
+        ]
+      ],
+      "accounts": [
+        [
+          "Active Directory",
+          "Oscar.Piastri",
+          "Active",
+          "Enabled"
+        ]
+      ],
+      "history": [
+        [
+          "Identity created",
+          "Aggregation"
+        ],
+        [
+          "Account correlated",
+          "Active Directory"
+        ]
+      ]
+    },
+    {
+      "userName": "Luke.Laverton",
+      "firstName": "Luke",
+      "lastName": "Laverton",
+      "email": "luke.laverton@ctrlaltidentity.dev",
+      "manager": "The Administrator",
+      "department": "Identity and Access Management",
+      "location": "Reading",
+      "jobTitle": "Senior Technical Specialist",
+      "costCenter": "R01e",
+      "status": "Active",
+      "type": "Employee",
+      "risk": 0,
+      "assigned": "Birthright IT Role, SailPoint Engineering",
+      "detected": "IdentityIQ Administrator",
+      "entitlements": [
+        [
+          "Birthright IT Role",
+          "Active Directory",
+          "Role",
+          "Birthright"
+        ],
+        [
+          "SailPoint Engineering",
+          "IdentityIQ",
+          "Role",
+          "Team Role"
+        ],
+        [
+          "Domain Admins",
+          "Active Directory",
+          "Entitlement",
+          "Detected"
+        ]
+      ],
+      "accounts": [
+        [
+          "Active Directory",
+          "Luke.Laverton",
+          "Active",
+          "Enabled"
+        ],
+        [
+          "IdentityIQ",
+          "Luke.Laverton",
+          "Active",
+          "Enabled"
+        ]
+      ],
+      "history": [
+        [
+          "Identity refresh completed",
+          "Scheduled task"
+        ],
+        [
+          "Certification completed",
+          "Manager certification"
+        ]
+      ]
+    },
+    {
+      "userName": "svc-aggregation",
+      "firstName": "Service",
+      "lastName": "Account",
+      "email": "",
+      "manager": "Luke.Laverton",
+      "department": "Identity and Access Management",
+      "location": "Reading",
+      "jobTitle": "Service Account",
+      "costCenter": "R01e",
+      "status": "Active",
+      "type": "Service",
+      "risk": 0,
+      "assigned": "Aggregation Service",
+      "detected": "",
+      "entitlements": [
+        [
+          "Aggregation Service",
+          "IdentityIQ",
+          "Role",
+          "Manual"
+        ]
+      ],
+      "accounts": [
+        [
+          "Active Directory",
+          "svc-aggregation",
+          "Active",
+          "Enabled"
+        ]
+      ],
+      "history": [
+        [
+          "Password last set",
+          "Active Directory"
+        ]
+      ]
+    },
+    {
+      "userName": "Christian.Horner",
+      "firstName": "Christian",
+      "lastName": "Horner",
+      "email": "christian.horner@ctrlaltidentity.dev",
+      "manager": "Luke.Laverton",
+      "department": "Race Operations",
+      "location": "Red Bull Racing",
+      "jobTitle": "Team Principal",
+      "costCenter": "R01e",
+      "status": "Active",
+      "type": "Employee",
+      "risk": 0,
+      "assigned": "Birthright IT Role, Team Principal Access",
+      "detected": "",
+      "entitlements": [
+        [
+          "Birthright IT Role",
+          "Active Directory",
+          "Role",
+          "Birthright"
+        ],
+        [
+          "SG-Race-Operations",
+          "Active Directory",
+          "Entitlement",
+          "Team Role"
+        ]
+      ],
+      "accounts": [
+        [
+          "Active Directory",
+          "Christian.Horner",
+          "Active",
+          "Enabled"
+        ]
+      ],
+      "history": [
+        [
+          "Identity created",
+          "Aggregation"
+        ],
+        [
+          "Account correlated",
+          "Active Directory"
+        ]
+      ]
+    },
+    {
+      "userName": "Fred.Vasseur",
+      "firstName": "Fred",
+      "lastName": "Vasseur",
+      "email": "fred.vasseur@ctrlaltidentity.dev",
+      "manager": "Luke.Laverton",
+      "department": "Race Operations",
+      "location": "Scuderia Ferrari",
+      "jobTitle": "Team Principal",
+      "costCenter": "R01e",
+      "status": "Active",
+      "type": "Employee",
+      "risk": 0,
+      "assigned": "Birthright IT Role, Team Principal Access",
+      "detected": "",
+      "entitlements": [
+        [
+          "Birthright IT Role",
+          "Active Directory",
+          "Role",
+          "Birthright"
+        ],
+        [
+          "SG-Race-Operations",
+          "Active Directory",
+          "Entitlement",
+          "Team Role"
+        ]
+      ],
+      "accounts": [
+        [
+          "Active Directory",
+          "Fred.Vasseur",
+          "Active",
+          "Enabled"
+        ]
+      ],
+      "history": [
+        [
+          "Identity created",
+          "Aggregation"
+        ],
+        [
+          "Account correlated",
+          "Active Directory"
+        ]
+      ]
+    },
+    {
+      "userName": "Andrea.Stella",
+      "firstName": "Andrea",
+      "lastName": "Stella",
+      "email": "andrea.stella@ctrlaltidentity.dev",
+      "manager": "Luke.Laverton",
+      "department": "Race Operations",
+      "location": "McLaren",
+      "jobTitle": "Team Principal",
+      "costCenter": "R01e",
+      "status": "Active",
+      "type": "Employee",
+      "risk": 0,
+      "assigned": "Birthright IT Role, Team Principal Access",
+      "detected": "",
+      "entitlements": [
+        [
+          "Birthright IT Role",
+          "Active Directory",
+          "Role",
+          "Birthright"
+        ],
+        [
+          "SG-Race-Operations",
+          "Active Directory",
+          "Entitlement",
+          "Team Role"
+        ]
+      ],
+      "accounts": [
+        [
+          "Active Directory",
+          "Andrea.Stella",
+          "Active",
+          "Enabled"
+        ]
+      ],
+      "history": [
+        [
+          "Identity created",
+          "Aggregation"
+        ],
+        [
+          "Account correlated",
+          "Active Directory"
+        ]
+      ]
+    },
+    {
+      "userName": "Toto.Wolff",
+      "firstName": "Toto",
+      "lastName": "Wolff",
+      "email": "toto.wolff@ctrlaltidentity.dev",
+      "manager": "Luke.Laverton",
+      "department": "Race Operations",
+      "location": "Mercedes",
+      "jobTitle": "Team Principal",
+      "costCenter": "R01e",
+      "status": "Active",
+      "type": "Employee",
+      "risk": 0,
+      "assigned": "Birthright IT Role, Team Principal Access",
+      "detected": "",
+      "entitlements": [
+        [
+          "Birthright IT Role",
+          "Active Directory",
+          "Role",
+          "Birthright"
+        ],
+        [
+          "SG-Race-Operations",
+          "Active Directory",
+          "Entitlement",
+          "Team Role"
+        ]
+      ],
+      "accounts": [
+        [
+          "Active Directory",
+          "Toto.Wolff",
+          "Active",
+          "Enabled"
+        ]
+      ],
+      "history": [
+        [
+          "Identity created",
+          "Aggregation"
+        ],
+        [
+          "Account correlated",
+          "Active Directory"
+        ]
+      ]
+    },
+    {
+      "userName": "James.Vowles",
+      "firstName": "James",
+      "lastName": "Vowles",
+      "email": "james.vowles@ctrlaltidentity.dev",
+      "manager": "Luke.Laverton",
+      "department": "Race Operations",
+      "location": "Williams",
+      "jobTitle": "Team Principal",
+      "costCenter": "R01e",
+      "status": "Active",
+      "type": "Employee",
+      "risk": 0,
+      "assigned": "Birthright IT Role, Team Principal Access",
+      "detected": "",
+      "entitlements": [
+        [
+          "Birthright IT Role",
+          "Active Directory",
+          "Role",
+          "Birthright"
+        ],
+        [
+          "SG-Race-Operations",
+          "Active Directory",
+          "Entitlement",
+          "Team Role"
+        ]
+      ],
+      "accounts": [
+        [
+          "Active Directory",
+          "James.Vowles",
+          "Active",
+          "Enabled"
+        ]
+      ],
+      "history": [
+        [
+          "Identity created",
+          "Aggregation"
+        ],
+        [
+          "Account correlated",
+          "Active Directory"
+        ]
+      ]
+    },
+    {
+      "userName": "Adrian.Newey",
+      "firstName": "Adrian",
+      "lastName": "Newey",
+      "email": "adrian.newey@ctrlaltidentity.dev",
+      "manager": "Luke.Laverton",
+      "department": "Race Operations",
+      "location": "Aston Martin",
+      "jobTitle": "Team Principal",
+      "costCenter": "R01e",
+      "status": "Active",
+      "type": "Employee",
+      "risk": 0,
+      "assigned": "Birthright IT Role, Team Principal Access",
+      "detected": "",
+      "entitlements": [
+        [
+          "Birthright IT Role",
+          "Active Directory",
+          "Role",
+          "Birthright"
+        ],
+        [
+          "SG-Race-Operations",
+          "Active Directory",
+          "Entitlement",
+          "Team Role"
+        ]
+      ],
+      "accounts": [
+        [
+          "Active Directory",
+          "Adrian.Newey",
+          "Active",
+          "Enabled"
+        ]
+      ],
+      "history": [
+        [
+          "Identity created",
+          "Aggregation"
+        ],
+        [
+          "Account correlated",
+          "Active Directory"
+        ]
+      ]
+    }
+  ]
+}

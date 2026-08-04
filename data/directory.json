@@ -1,0 +1,196 @@
+{
+  "root": "Active Directory Users and Computers",
+  "domain": "ctrlaltidentity.local",
+  "containers": [
+    {
+      "name": "Builtin",
+      "items": [
+        [
+          "Administrators",
+          "group",
+          "Administrators have complete and unrestricted access"
+        ],
+        [
+          "Remote Desktop Users",
+          "group",
+          "Members are granted the right to logon remotely"
+        ],
+        [
+          "Guests",
+          "group",
+          "Guests have the same access as members of Users"
+        ]
+      ]
+    },
+    {
+      "name": "Groups",
+      "items": [
+        [
+          "Domain Admins",
+          "group",
+          "Designated administrators of the domain"
+        ],
+        [
+          "Domain Users",
+          "group",
+          "All domain users"
+        ],
+        [
+          "SG-Blog-Readers",
+          "group",
+          "Read access to published content"
+        ],
+        [
+          "SG-Desktop-Users",
+          "group",
+          "Standard desktop session access"
+        ],
+        [
+          "SG-Content-Authors",
+          "group",
+          "Publish and edit site content"
+        ],
+        [
+          "SG-Race-Operations",
+          "group",
+          "Members of this group can access race operations systems"
+        ],
+        [
+          "SG-Telemetry-Access",
+          "group",
+          "Members of this group can view live car telemetry"
+        ],
+        [
+          "SG-Garage-Systems",
+          "group",
+          "Members of this group can access garage and pit wall systems"
+        ],
+        [
+          "SG-Strategy-Tools",
+          "group",
+          "Members of this group can access race strategy tooling"
+        ]
+      ]
+    },
+    {
+      "name": "Service Accounts",
+      "items": [
+        [
+          "svc-aggregation",
+          "user",
+          "IdentityIQ aggregation service account"
+        ],
+        [
+          "svc-scim",
+          "user",
+          "SCIM provisioning service account"
+        ],
+        [
+          "svc-backup",
+          "user",
+          "Scheduled backup service account"
+        ]
+      ]
+    },
+    {
+      "name": "Users",
+      "items": [
+        [
+          "Guest.Visitor",
+          "user",
+          "Site visitor account"
+        ],
+        [
+          "Luke.Laverton",
+          "user",
+          "Senior Technical Specialist"
+        ],
+        [
+          "Christian.Horner",
+          "user",
+          "Team Principal, Red Bull Racing"
+        ],
+        [
+          "Fred.Vasseur",
+          "user",
+          "Team Principal, Scuderia Ferrari"
+        ],
+        [
+          "Andrea.Stella",
+          "user",
+          "Team Principal, McLaren"
+        ],
+        [
+          "Toto.Wolff",
+          "user",
+          "Team Principal, Mercedes"
+        ],
+        [
+          "James.Vowles",
+          "user",
+          "Team Principal, Williams"
+        ],
+        [
+          "Adrian.Newey",
+          "user",
+          "Team Principal, Aston Martin"
+        ],
+        [
+          "Max.Verstappen",
+          "user",
+          "Race Driver, Race Operations"
+        ],
+        [
+          "Lewis.Hamilton",
+          "user",
+          "Race Driver, Race Operations"
+        ],
+        [
+          "Charles.Leclerc",
+          "user",
+          "Race Driver, Race Operations"
+        ],
+        [
+          "Lando.Norris",
+          "user",
+          "Race Driver, Race Operations"
+        ],
+        [
+          "George.Russell",
+          "user",
+          "Race Driver, Vehicle Dynamics"
+        ],
+        [
+          "Carlos.Sainz",
+          "user",
+          "Race Driver, Race Operations"
+        ],
+        [
+          "Fernando.Alonso",
+          "user",
+          "Race Driver, Strategy"
+        ],
+        [
+          "Oscar.Piastri",
+          "user",
+          "Race Driver, Aerodynamics"
+        ],
+        [
+          "Administrator",
+          "user",
+          "Built-in account for administering the domain"
+        ]
+      ]
+    },
+    {
+      "name": "Disabled",
+      "items": [
+        [
+          "Leaver.Account",
+          "user",
+          "Disabled by leaver process"
+        ]
+      ]
+    }
+  ]
+}

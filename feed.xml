@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ctrl+alt+identity</title>
+    <link>https://ctrlaltidentity.dev/</link>
+    <atom:link href="https://ctrlaltidentity.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Notes on identity and access management by Luke Laverton.</description>
+    <language>en-gb</language>
+    <item>
+      <title>A Custom Entry Point for Native Change Detection</title>
+      <link>https://ctrlaltidentity.dev/#/posts/ncd-framework</link>
+      <guid isPermaLink="false">ctrlaltidentity.dev/posts/ncd-framework</guid>
+      <pubDate>Tue, 04 Aug 2026 09:00:00 +0000</pubDate>
+      <description>We've been utilising Native Change Detection for a while now, but having recently built a framework for it I felt it was time to fix a long standing issue that has always bugged me. NCD is one of those SailPoint features that sounds solved out...</description>
+    </item>
+    <item>
+      <title>SCIM via Entra or via SailPoint</title>
+      <link>https://ctrlaltidentity.dev/#/posts/scim-entra-vs-sailpoint</link>
+      <guid isPermaLink="false">ctrlaltidentity.dev/posts/scim-entra-vs-sailpoint</guid>
+      <pubDate>Sun, 02 Aug 2026 09:00:00 +0000</pubDate>
+      <description>This is something that comes up semi-regularly. Enough times that I've decided a blog post is due: an application supports SCIM. Entra can do SCIM. SailPoint can do SCIM. Someone asks the reasonable question: why would we build a SailPoint connector when Entra will do...</description>
+    </item>
+    <item>
+      <title>Designing Team Based Access</title>
+      <link>https://ctrlaltidentity.dev/#/posts/rbac-abac-pbac</link>
+      <guid isPermaLink="false">ctrlaltidentity.dev/posts/rbac-abac-pbac</guid>
+      <pubDate>Sun, 02 Aug 2026 09:00:00 +0000</pubDate>
+      <description>At the start of 2026, under the vision of the newly formed SailPoint engineering function, I set myself the task of finally getting RBAC (or team based access) set up and working. I'd never really considered the different acronyms of what I would be implementing....</description>
+    </item>
+  </channel>
+</rss>

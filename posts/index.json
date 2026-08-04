@@ -1,0 +1,20 @@
+[
+  {
+    "file": "ncd-framework.md",
+    "title": "A Custom Entry Point for Native Change Detection",
+    "date": "4 August 2026",
+    "read": "8 min"
+  },
+  {
+    "file": "scim-entra-vs-sailpoint.md",
+    "title": "SCIM via Entra or via SailPoint",
+    "date": "2 August 2026",
+    "read": "8 min"
+  },
+  {
+    "file": "rbac-abac-pbac.md",
+    "title": "Designing Team Based Access",
+    "date": "2 August 2026",
+    "read": "10 min"
+  }
+]

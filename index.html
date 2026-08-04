@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ctrl+alt+identity — Luke Laverton</title>
+<meta name="description" content="Notes on identity and access management by Luke Laverton. Access models, joiner-mover-leaver, privileged access, and how identity actually works on a Tuesday afternoon.">
+<meta name="author" content="Luke Laverton">
+<meta name="theme-color" content="#0d29a0">
+<link rel="canonical" href="https://ctrlaltidentity.dev/">
+
+<meta property="og:site_name" content="ctrl+alt+identity">
+<meta property="og:title" content="ctrl+alt+identity">
+<meta property="og:description" content="Notes on identity and access management. Provisioning since 2015.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ctrlaltidentity.dev/">
+<meta property="og:image" content="https://ctrlaltidentity.dev/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ctrl+alt+identity — Provisioning since 2015">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ctrl+alt+identity">
+<meta name="twitter:description" content="Notes on identity and access management. Provisioning since 2015.">
+<meta name="twitter:image" content="https://ctrlaltidentity.dev/assets/og-image.png">
+
+<link rel="icon" href="assets/xp-logo.png">
+<link rel="alternate" type="application/rss+xml" title="ctrl+alt+identity" href="/feed.xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ BOOT ============ -->
+<section id="boot" class="screen">
+  <div class="boot-stack">
+    <img class="boot-logo" src="assets/xp-logo.png" alt="">
+    <div class="lockup">
+      <h1 class="wordmark">ctrl+alt+identity<span class="xp">xp</span></h1>
+      <p class="tagline">Provisioning since 2015</p>
+    </div>
+    <div class="progress" role="progressbar" aria-label="Starting up">
+      <div class="progress-blocks"><i></i><i></i><i></i></div>
+    </div>
+  </div>
+  <p class="boot-footer">Identity<sup>®</sup></p>
+</section>
+
+<!-- ============ LOGIN ============ -->
+<section id="login" class="screen hidden">
+  <div class="login-bar top"></div>
+  <div class="login-body">
+    <div class="login-lockup">
+      <img class="login-logo" src="assets/xp-logo.png" alt="">
+      <div class="lockup">
+        <h1 class="wordmark sm">ctrl+alt+identity<span class="xp">xp</span></h1>
+        <p class="tagline sm">Provisioning since 2015</p>
+      </div>
+    </div>
+    <hr class="login-rule">
+    <button class="user-tile" id="loginBtn">
+      <span class="avatar"><img src="assets/avatar.jpg" alt="Luke Laverton"></span>
+      <span class="user-name">Luke Laverton</span>
+      <span class="user-role">Identity Engineer</span>
+    </button>
+  </div>
+  <div class="login-bar bottom"><span class="hint">Tap on the user icon to begin</span></div>
+</section>
+
+<!-- ============ WELCOME ============ -->
+<section id="welcome" class="screen hidden">
+  <div class="login-bar top"></div>
+  <div class="welcome-body"><span>welcome</span></div>
+  <div class="login-bar bottom"></div>
+</section>
+
+<!-- ============ DESKTOP ============ -->
+<section id="desktop" class="screen hidden">
+
+  <div class="wallpaper" aria-hidden="true">
+    <div class="sky"></div>
+    <div class="clouds">
+      <img class="cloud cloud-1" src="assets/clouds/cloud-large.png" alt="">
+      <img class="cloud cloud-2" src="assets/clouds/cloud-medium.png" alt="">
+      <img class="cloud cloud-3" src="assets/clouds/cloud-tiny.png" alt="">
+      <img class="cloud cloud-4" src="assets/clouds/cloud-medium.png" alt="">
+    </div>
+    <svg class="hills" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 340" preserveAspectRatio="none">
+      <path class="mtn-far"  d="M600,58 L680,32 L762,50 L832,26 L900,50 L950,38 L1000,46 L1000,104 L600,104 Z"/>
+      <path class="mtn-near" d="M700,70 L772,46 L840,60 L906,40 L958,58 L1000,50 L1000,108 L700,108 Z"/>
+      <path class="h1" d="M0,4 C100,0 200,1 300,5 C400,10 500,21 600,32 C700,43 800,52 900,65 C950,71 980,74 1000,76 L1000,340 L0,340 Z"/>
+      <path class="h2" d="M0,150 C220,132 480,96 720,74 C830,64 930,60 1000,58 L1000,340 L0,340 Z"/>
+      <path class="h3" d="M0,268 C240,246 520,232 760,238 C870,241 950,248 1000,254 L1000,340 L0,340 Z"/>
+    </svg>
+    <svg class="wall-mark" viewBox="0 0 1000 220" preserveAspectRatio="xMidYMid meet">
+      <defs>
+        <path id="ridgepath" d="M0,196 C250,184 550,170 760,162 C860,158 940,157 1000,156"/>
+      </defs>
+      <text class="wm-cut" text-anchor="middle">
+        <textPath href="#ridgepath" xlink:href="#ridgepath" startOffset="50%">ctrl+alt+identity</textPath>
+      </text>
+    </svg>
+  </div>
+
+  <div class="icons" id="desktopIcons"></div>
+
+  <div id="windows"></div>
+
+  <nav class="taskbar">
+    <button class="start" id="startBtn">
+      <img src="assets/xp-logo.png" alt=""><span>start</span>
+    </button>
+    <div class="tasks" id="tasks"></div>
+    <div class="tray">
+      <button class="soundbtn" aria-label="Mute sounds">🔊</button>
+      <img src="assets/icons/network.svg" alt="Network">
+      <img src="assets/icons/shield.svg" alt="Security">
+      <span id="clock"></span>
+    </div>
+  </nav>
+
+  <div class="balloon hidden" id="balloon" role="status">
+    <button class="balloon-close" id="balloonClose" aria-label="Close">✕</button>
+    <div class="balloon-head">
+      <img src="assets/icons/shield.svg" alt="">
+      <span>Identity Centre</span>
+    </div>
+    <p class="balloon-body">
+      <b id="balloonTitle">A new blog post detected!</b>
+      <em id="balloonPost"></em>
+      <span id="balloonSub"></span>
+    </p>
+    <button class="balloon-action" id="balloonRead">Click here to read it.</button>
+  </div>
+
+  <div class="startmenu hidden" id="startMenu">
+    <header>
+      <img src="assets/avatar.jpg" alt="">
+      <span>Luke Laverton</span>
+    </header>
+    <ul id="startItems"></ul>
+    <footer><button id="logOffBtn">Log Off</button><button id="shutBtn">Turn Off Computer</button></footer>
+  </div>
+  <div class="scrim hidden" id="scrim"></div>
+
+  <div class="xpshut hidden" id="xpshut">
+    <div class="xpshut-dlg">
+      <div class="xpshut-bar"><span id="xpshutTitle"></span><img src="assets/xp-logo.png" alt=""></div>
+      <div class="xpshut-body" id="xpshutOpts"></div>
+      <div class="xpshut-foot"><button id="xpshutCancel">Cancel</button></div>
+    </div>
+  </div>
+
+</section>
+
+<section id="transition" class="screen hidden">
+  <div class="login-bar top"></div>
+  <div class="login-body trans">
+    <img class="login-logo" src="assets/xp-logo.png" alt="">
+    <div class="lockup">
+      <h1 class="wordmark sm">ctrl+alt+identity<span class="xp">xp</span></h1>
+      <p class="tagline sm">Provisioning since 2015</p>
+    </div>
+    <p class="trans-msg" id="transMsg"></p>
+  </div>
+  <div class="login-bar bottom"><span class="hint" id="transFoot"></span></div>
+</section>
+
+<section id="poweroff" class="screen hidden">
+  <p>It is now safe to turn off your computer.</p>
+</section>
+
+<div class="crt" aria-hidden="true"></div>
+
+<script src="app.js"></script>
+</body>
+</html>

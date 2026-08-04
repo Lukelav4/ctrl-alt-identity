@@ -1,0 +1,86 @@
+{
+  "outlet": "The Access Times",
+  "tagline": "Independent coverage of the identity and access world",
+  "sectionBar": "See all Identity",
+  "categories": [
+    "Identity",
+    "Access",
+    "Governance",
+    "Automation",
+    "Opinion"
+  ],
+  "hero": {
+    "kicker": "Identity & Access",
+    "title": "Engineer ends decade-old 'every workflow fires at once' problem in identity platform overhaul",
+    "snippet": "A single mis-routed change event used to trigger every application workflow on the platform at once. One engineer's fix: make the platform ask which one actually changed before it does anything.",
+    "byline": "Georgia Rankin",
+    "date": "3 Aug 2026, 6:12pm",
+    "art": [
+      "#0d2450",
+      "#3f8cf3",
+      "#e8641c"
+    ]
+  },
+  "stories": [
+    {
+      "title": "Two-team, two-week access request now takes minutes, firm confirms",
+      "snippet": "A manual process spanning two departments has been replaced by a single self-service workflow, saving an estimated 350 hours of admin a year.",
+      "byline": "Dev Sathe",
+      "date": "3 Aug 2026, 2:41pm",
+      "art": [
+        "#c7c2ae",
+        "#8a8574"
+      ]
+    },
+    {
+      "title": "Financial firm closes toxic access loophole after two-year governance programme",
+      "snippet": "A segregation of duties programme built with a Big Four advisory firm now blocks the riskiest combinations outright, while allowing lower-risk exceptions to proceed with sign-off.",
+      "byline": "Georgia Rankin",
+      "date": "1 Aug 2026, 11:05am",
+      "art": [
+        "#3f8cf3",
+        "#0d2450"
+      ]
+    },
+    {
+      "title": "In-house reporting tool quietly replaces creaking PowerShell scripts",
+      "snippet": "A rule library now handles report generation and delivery that used to run outside the platform entirely, closing a gap nobody had got round to fixing.",
+      "byline": "Sam Whitfield",
+      "date": "30 Jul 2026, 4:00pm",
+      "art": [
+        "#f0a01e",
+        "#8a5a10"
+      ]
+    },
+    {
+      "title": "100 credentials, 3 safes: the vault clean-up nobody noticed",
+      "snippet": "A quiet piece of credential segregation work has reduced non-production exposure to production secrets across a major platform, without a single outage.",
+      "byline": "Dev Sathe",
+      "date": "28 Jul 2026, 9:47am",
+      "art": [
+        "#5b6b7a",
+        "#1a1a1a"
+      ]
+    },
+    {
+      "title": "Small team, big roadmap: inside a two-person identity function",
+      "snippet": "Presented to over 150 colleagues at a company-wide technology event, the function now owns a standing roadmap covering governance, security and automation, built with a team you could fit at one desk.",
+      "byline": "Sam Whitfield",
+      "date": "24 Jul 2026, 1:15pm",
+      "art": [
+        "#8b63e0",
+        "#6a44c4"
+      ]
+    },
+    {
+      "title": "Direct connector chosen over 'quicker' SCIM route, and the reasoning holds up",
+      "snippet": "An engineer's case for full lifecycle control over a faster integration option is being cited elsewhere as the sensible default, not the cautious one.",
+      "byline": "Georgia Rankin",
+      "date": "20 Jul 2026, 8:30am",
+      "art": [
+        "#2f7ce0",
+        "#164a8c"
+      ]
+    }
+  ]
+}
